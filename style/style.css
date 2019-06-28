@@ -100,3 +100,15 @@ img {
     width: 90vw;
     position: absolute;
 }
+
+::-webkit-scrollbar {
+    width: 1.7vmin;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #114d7f24
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #114D7F;
+  }
