@@ -1,0 +1,10 @@
+a {
+    color: white;
+    transition: color 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: #c7d7f2;
+  }
