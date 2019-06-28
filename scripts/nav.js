@@ -38,20 +38,8 @@ window.addEventListener('load', () => {
             navElements[3].classList.add('active');
         } else if (scrollY >= num && scrollY < num + 4 * scrollHeight) {
             navElements[3].classList.remove('active');
-            navElements[5].classList.remove('active');
             navElements[4].classList.add('active');
-        } else if (scrollY >= num && scrollY < num + 5 * scrollHeight) {
-            navElements[4].classList.remove('active');
-            navElements[6].classList.remove('active');
-            navElements[5].classList.add('active');
-        } else if (scrollY >= num && scrollY < num + 6 * scrollHeight) {
-            navElements[5].classList.remove('active');
-            navElements[7].classList.remove('active');
-            navElements[6].classList.add('active');
-        } else if (scrollY >= num && scrollY < num + 7 * scrollHeight) {
-            navElements[6].classList.remove('active');
-            navElements[7].classList.add('active');
-        }          
+        }       
     }, 10);
 
     for (let i = 0; i < navElements.length; i++) {
