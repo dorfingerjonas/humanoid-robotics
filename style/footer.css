@@ -1,0 +1,15 @@
+footer {
+    background: rgb(0,85,138);
+    width: 100vw;
+    height: 50vh;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerWrapper {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
