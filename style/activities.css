@@ -7,3 +7,48 @@
     margin: 2%;
     text-align: justify;
 }
+
+#activitiesWrapper h1 {
+    display: none;
+}
+
+#activitiesWrapper h2 {
+    background-color: #ffffff4f;
+    padding: 0.5% 2.5%;
+    margin: 2%;
+    width: 50vw;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#activitiesWrapper ul {
+    all:unset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#activitiesWrapper li {
+    all:unset;
+    background-color: #ffffff4f;
+    padding: 2% 2.5% 2% 2.5%;
+    margin: 2%;
+    width: 50vw;
+    height: auto;
+    border-radius: 15px;
+    font-size: 1.7vw;
+    text-align: justify;
+}
+
+#activitiesWrapper li strong {
+    font-size: 3vw;
+    padding: 10px 20px 20px 0;
+
+    display: flex;
+    align-items: center;
+}
+
+#activitiesWrapper li a {
+    text-decoration: underline;
+}
